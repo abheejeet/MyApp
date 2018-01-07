@@ -1,5 +1,7 @@
 package me.test.app.MyApp;
 
+import me.Tweet.Procedure.SearchForTweets;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       SearchForTweets o=new SearchForTweets();
+       o.getTweetsByaUser();
     }
 }
